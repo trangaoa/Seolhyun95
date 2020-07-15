@@ -1,0 +1,75 @@
+.logintitle{
+          font-size: 50px;
+          font-family: segoe ui;
+          padding: 30px 100px 50px;
+}
+.part6 {
+          font-family: segoe ui light;
+          padding: 0px 400px;
+}
+.part6 form {
+          border-radius: 10px;
+}
+.part6 h3 {
+          padding-left: 180px;
+          font-size: 1.5rem;
+}
+.part6 input[type=text], input[type=password] {
+          width: 90%;
+          padding: 15px;
+          margin: 5px 0 22px 0;
+          display: inline-block;
+          border: 0.5px solid grey;
+          border-radius: 10px;
+          font-size: 15px;
+          transition: 1s;
+          background: #f1f1f1;
+          margin-left: 10px;
+}
+        
+.part6 input[type=text]:focus, input[type=password]:focus {
+          background-color: #ddd;
+          outline: none;
+}
+.part6 button {
+          background-color: #a1624d;
+          color: white;
+          padding: 14px;
+          margin: 8px 0;
+          border: none;
+          cursor: pointer;
+          width: 80%;
+          opacity: 0.9;
+          border-radius: 1rem;
+}
+.part6 .clearfix {
+          width: 250px;
+          padding-left: 40px;
+}
+.part6 .clearfix .part6_01 {
+          padding-top: 20px;
+          padding-left: 150px;
+}
+.part6 button:hover {
+          opacity:1;
+          background-color: #4CAF50;
+}
+
+.part6 .signinbtn {
+          margin-left: 180px;
+          width: 30%;
+}
+.part6 .signupbtn {
+          width: 50%;
+}
+/* Clear floats */
+.part6 .clearfix::after {
+          content: "";
+          clear: both;
+          display: table;
+}
+.part6 span {
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
