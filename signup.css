@@ -1,0 +1,97 @@
+.part4 {
+  width: 400px;
+  padding-left: 500px;
+}
+.part4 form {
+  border-radius: 10px;
+}
+  /* Full-width input fields */
+.part4 input[type=text], input[type=password] {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: 0.5px solid grey;
+  border-radius: 10px;
+  font-size: 15px;
+  transition: 1s;
+  background: #f1f1f1;
+}
+        
+.part4 input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+        
+/* Set a style for all buttons */
+.part4 button {
+  background-color: #a1624d;
+  color: white;
+  padding: 14px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 80%;
+  opacity: 0.9;
+  border-radius: 1rem;
+}
+.part4 .clearfix {
+  width: 250px;
+  padding-left: 120px;
+}
+.part4 button:hover {
+  opacity:1;
+  background-color: #4CAF50;
+}
+        
+.part4 .signupbtn {
+  float: left;
+  width: 50%;
+}
+        
+/* Add padding to container elements */
+.part4 .container {
+  padding: 16px;
+}
+  /* Clear floats */
+.part4 .clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+        
+.part4 h2 {
+  padding-left: 50px;
+  font-family: segoe ui light;
+  font-size: 1.5rem;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.part5 {
+  padding-top: 20px;
+  width: 15%;
+  padding-left: 630px;
+  color:grey;
+}
+.part6 {
+  padding: 20px;
+  width: 20%;
+  padding-left: 570px;
+}
+.part6 .part6_01 {
+  padding-left: 13px;
+  font-family: segoe ui light;
+}
+.part6 form {
+  border-radius: 10px;
+}
+.part6 .part6_02 {
+  padding-left: 18px;
+}
+.part6 .part6_02 ul {
+  display: flex;
+  list-style: none;
+}
+.part6 .part6_02 ul li{
+  padding-right: 10px;
+}
